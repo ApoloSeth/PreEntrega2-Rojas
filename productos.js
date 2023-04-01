@@ -17,7 +17,7 @@ class Productos {
         if (unidades < this.inventario){
             this.inventario -= unidades
         } else {
-            alert(`No hay ${unidades} disponibles del producto ${this.nombre}\nActualmente contamos con ${this.inventario} unidades`)
+            alert(`No hay ${unidades} unidades disponibles del producto ${this.nombre}\nActualmente contamos con ${this.inventario} unidades`)
         }
     }
     estaAgotado(){
